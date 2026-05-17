@@ -23,4 +23,8 @@ client.on("messageCreate", async (message) => {
   }
 });
 
+console.log("BOT STARTING...");
+
+console.log("TOKEN RAW =", process.env.TOKEN);
+
 client.login(process.env.TOKEN);
